@@ -1,0 +1,11 @@
+.zhu>img{
+	width: 1200px;
+	display: block;
+	margin: auto;
+}
+.nav>li:nth-child(4){
+	background: #3CBC81;
+}
+.nav>li:nth-child(4)>a{
+	color: white;
+}

@@ -1,0 +1,70 @@
+.app{
+	padding: 50px 0;
+	background-image: url(../IMG/4_02.png);
+}
+.anniu{
+	width: 200px;
+	line-height: 50px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #3CBC81;
+	border-radius: 25px;
+	color: white;
+	font-size: 20px;
+	background: #3CBC81;
+}
+.zhong{
+	width: 1000px;
+	margin:50px auto;
+	overflow: hidden;
+}
+.fe{
+	width: 30%;
+	float: left;
+	margin-left:5%;
+	position: relative;
+}
+.fe>img{
+	width: 100%;
+	display: block;
+}
+.fe:nth-child(1){
+	margin-left: 0;
+}
+.da{
+	margin-top: 50px;
+}
+.da>img{
+	width: 100%;
+}
+.bei{
+	margin-top: 50px;
+	transition: all 0.5s;
+}
+.bei>a{
+	width: 100%;
+	display: block;
+	color: white;
+}
+.zhe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:100%;
+	transition: all 0.3s; 
+	background: rgba(0,0,0,0.5);
+}
+.zhe>span{
+	display: block;
+	padding: 100px 20px;
+	color: white;
+}
+.fe:hover .zhe{
+	top: 0;
+}
+.nav>li:nth-child(3){
+	background: #3CBC81;
+}
+.nav>li:nth-child(3)>a{
+	color: white;
+}

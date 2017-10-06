@@ -1,0 +1,13 @@
+.inde{
+	width: 1200px;
+	margin: auto;
+}
+.inde img{
+	width: 100%;
+}
+.nav>li:nth-child(2){
+	background: #3CBC81;
+}
+.nav>li:nth-child(2)>a{
+	color: white;
+}
